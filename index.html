@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vidhan Thakur — Security Engineer</title>
+<meta name="description" content="Vidhan Thakur — Junior Security Engineer. Web, API, Mobile & Network Security Assessments, Bug Bounty, AppSec.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Scan-line / grid backdrop -->
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-bracket">&gt;_</span> VT<span class="logo-dot">.</span>sec
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"><span class="idx">01</span>about</a>
+      <a href="#experience"><span class="idx">02</span>experience</a>
+      <a href="#skills"><span class="idx">03</span>skills</a>
+      <a href="#findings"><span class="idx">04</span>findings</a>
+      <a href="#certs"><span class="idx">05</span>certs</a>
+      <a href="#contact"><span class="idx">06</span>contact</a>
+    </nav>
+    <a class="btn btn-ghost nav-cv" href="assets/Vidhan_Thakur_Resume.pdf" download>download cv</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">// security_engineer.init()</p>
+        <div class="terminal" id="terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+            <span class="terminal-title">vidhan@intelliroot:~</span>
+          </div>
+          <div class="terminal-body" id="terminalBody" aria-live="polite"></div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#findings" class="btn btn-primary">view findings</a>
+          <a href="#contact" class="btn btn-outline">get in touch</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num" data-count="70" data-suffix="+">0</span>
+            <span class="stat-label">client products assessed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="10" data-suffix="+">0</span>
+            <span class="stat-label">vulnerabilities disclosed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="1" data-suffix=".4y">0</span>
+            <span class="stat-label">industry experience</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-hidden="true">
+        <div class="scan-card">
+          <div class="scan-card-head">
+            <span>severity_scan.log</span>
+            <span class="pulse-dot"></span>
+          </div>
+          <ul class="scan-list">
+            <li><span class="sev sev-critical">CRIT</span> auth/otp-bypass <span class="scan-status ok">reported</span></li>
+            <li><span class="sev sev-high">HIGH</span> config+html-inject/session <span class="scan-status ok">reported</span></li>
+            <li><span class="sev sev-medium">MED</span> info/leak x5 <span class="scan-status ok">reported</span></li>
+            <li><span class="sev sev-ai">AI</span> llm/prompt-injection <span class="scan-status ok">reported</span></li>
+          </ul>
+          <div class="scan-footer">scan complete — 0 findings unresolved</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span>scroll</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">01</span> about</p>
+      <h2 class="section-title">Breaking things professionally, <span class="accent">so attackers don't have to.</span></h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a Junior Security Engineer at <strong>Intelliroot Technologies</strong>, with 1.5+ years across
+          web, API, mobile, and network penetration testing, secure code review, and Secure SDLC / Shift-Left
+          implementation. I've run end-to-end assessments on <strong>70+ client products</strong>, uncovering
+          business logic flaws and reducing deployment risk before release — not just checkbox findings.
+        </p>
+        <p class="about-text">
+          Outside client engagements, I hunt for vulnerabilities independently — public disclosures across
+          <strong>Max Healthcare</strong>, <strong>Deutsche Telekom</strong>, <strong>Stanford University</strong>,
+          and <strong>Tata Motors</strong>, including an OTP bypass and prompt injection issues in
+          AI-integrated applications. I hold the CEH v13 and CNSP certifications, and I'm actively building
+          toward Product Security Engineering — with growing depth in threat modeling (STRIDE) and
+          DevSecOps / CI-CD pipeline security.
+        </p>
+        <div class="about-meta">
+          <div class="meta-row"><span class="meta-key">base</span><span class="meta-val">Bangalore, India</span></div>
+          <div class="meta-row"><span class="meta-key">role</span><span class="meta-val">Junior Security Engineer</span></div>
+          <div class="meta-row"><span class="meta-key">focus</span><span class="meta-val">AppSec · Threat Modeling · DevSecOps</span></div>
+          <div class="meta-row"><span class="meta-key">education</span><span class="meta-val">B.E. Computer Science, 2024</span></div>
+          <div class="meta-row"><span class="meta-key">status</span><span class="meta-val"><span class="live-dot"></span>open to opportunities</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">02</span> experience</p>
+      <h2 class="section-title">Assessment <span class="accent">history</span></h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Junior Security Engineer</h3>
+              <span class="timeline-date">Feb 2025 — Present</span>
+            </div>
+            <p class="timeline-org">Intelliroot Technologies (OPC) Pvt. Ltd.</p>
+            <ul class="timeline-list">
+              <li>Executed end-to-end security assessments (Web, API, Mobile, Network) for <strong>70+ client products</strong>, uncovering critical business logic flaws and reducing deployment risk.</li>
+              <li>Conducted <strong>Source Code Reviews, SAST, and SCA</strong> to identify insecure coding practices and vulnerable third-party dependencies.</li>
+              <li>Collaborated with development teams on <strong>Secure SDLC and Shift-Left Security</strong>, identifying and remediating issues during early stages of the SDLC.</li>
+              <li>Tested <strong>authentication, authorization, and session management</strong> controls against OWASP Top 10 — building PoC exploits to demonstrate real-world business impact.</li>
+              <li>Operated <strong>Burp Suite, Nmap, Nessus, Metasploit, MobSF, Frida, and Wireshark</strong> to execute assessments and validate findings.</li>
+              <li>Prepared detailed <strong>VAPT and CERT-In compliant reports</strong> covering risk assessment, business impact analysis, and remediation guidance for stakeholder communication.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Cybersecurity Intern</h3>
+              <span class="timeline-date">Sep 2023 — Oct 2023</span>
+            </div>
+            <p class="timeline-org">SenseLearner Technologies Pvt. Ltd.</p>
+            <ul class="timeline-list">
+              <li>Applied classroom theory to live cybersecurity assessments, focused on incident response and penetration testing.</li>
+              <li>Ran vulnerability assessments using Nmap and Burp Suite.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">03</span> skills</p>
+      <h2 class="section-title">Tooling <span class="accent">&amp; capability</span></h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-card wide">
+          <h3>Application Security</h3>
+          <div class="tag-row">
+            <span class="tag">Secure SDLC</span><span class="tag">Shift-Left Security</span>
+            <span class="tag">Threat Modeling (STRIDE)</span><span class="tag">Secure Code Review</span>
+            <span class="tag">Static Application Security Testing (SAST)</span><span class="tag">Dynamic Application Security Testing (DAST)</span>
+            <span class="tag">Software Composition Analysis (SCA)</span>
+            <span class="tag">OWASP Top 10</span><span class="tag">OWASP API Top 10</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>DevSecOps / CI-CD</h3>
+          <div class="tag-row">
+            <span class="tag">CI/CD Security Pipeline</span><span class="tag">Semgrep (Custom Rules)</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Offensive Tooling</h3>
+          <div class="tag-row">
+            <span class="tag">Burp Suite</span><span class="tag">Nmap</span><span class="tag">Nessus</span><span class="tag">Nuclei</span>
+            <span class="tag">Metasploit</span><span class="tag">SQLMap</span><span class="tag">Wireshark</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Mobile &amp; Reverse Engineering</h3>
+          <div class="tag-row">
+            <span class="tag">MobSF</span><span class="tag">Frida</span><span class="tag">Jadx</span><span class="tag">Apktool</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Vulnerability Classification</h3>
+          <div class="tag-row">
+            <span class="tag">CVSS</span><span class="tag">CWE</span><span class="tag">Risk Assessment</span>
+            <span class="tag">CERT-In Compliant Reporting</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Networking &amp; Systems</h3>
+          <div class="tag-row">
+            <span class="tag">HTTP/HTTPS</span><span class="tag">DNS</span><span class="tag">FTP</span><span class="tag">SSH</span>
+            <span class="tag">TCP/IP</span><span class="tag">UDP</span><span class="tag">Kali Linux</span>
+            <span class="tag">Linux Fundamentals</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="proficiency">
+        <div class="prof-row">
+          <span class="prof-label">Web Application Pentesting</span>
+          <div class="prof-bar"><div class="prof-fill" style="--val:92%"></div></div>
+        </div>
+        <div class="prof-row">
+          <span class="prof-label">API Security Testing</span>
+          <div class="prof-bar"><div class="prof-fill" style="--val:88%"></div></div>
+        </div>
+        <div class="prof-row">
+          <span class="prof-label">Network Penetration Testing</span>
+          <div class="prof-bar"><div class="prof-fill" style="--val:85%"></div></div>
+        </div>
+        <div class="prof-row">
+          <span class="prof-label">Mobile Application Security</span>
+          <div class="prof-bar"><div class="prof-fill" style="--val:78%"></div></div>
+        </div>
+        <div class="prof-row">
+          <span class="prof-label">Source Code Review / SAST / SCA</span>
+          <div class="prof-bar"><div class="prof-fill" style="--val:75%"></div></div>
+        </div>
+        <div class="prof-row">
+          <span class="prof-label">Threat Modeling (STRIDE)</span>
+          <div class="prof-bar"><div class="prof-fill" style="--val:60%"></div></div>
+        </div>
+        <div class="prof-row">
+          <span class="prof-label">DevSecOps / CI-CD Security</span>
+          <div class="prof-bar"><div class="prof-fill" style="--val:55%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINDINGS -->
+  <section class="section" id="findings">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">04</span> findings</p>
+      <h2 class="section-title">Independent <span class="accent">bug bounty disclosures</span></h2>
+      <p class="section-sub">A selection of vulnerabilities identified and responsibly disclosed outside of client engagements.</p>
+
+      <div class="findings-grid">
+        <article class="finding-card">
+          <header class="finding-head">
+            <span class="sev sev-critical">CRITICAL</span>
+            <span class="finding-id">FND-01</span>
+          </header>
+          <h3 class="finding-title">OTP Bypass in Authentication Workflow</h3>
+          <p class="finding-target">Target: Max Healthcare</p>
+          <p class="finding-desc">Identified a logic flaw in the OTP verification flow allowing authentication bypass, exposing user accounts to unauthorized access.</p>
+          <div class="finding-bar"><div class="finding-fill sev-fill-critical" style="--val:95%"></div></div>
+          <footer class="finding-foot"><span class="status-dot"></span>disclosed</footer>
+        </article>
+
+        <article class="finding-card">
+          <header class="finding-head">
+            <span class="sev sev-high">HIGH</span>
+            <span class="finding-id">FND-02</span>
+          </header>
+          <h3 class="finding-title">Config Disclosure, HTML Injection &amp; Session Flaws</h3>
+          <p class="finding-target">Target: Deutsche Telekom</p>
+          <p class="finding-desc">Identified sensitive configuration disclosure alongside HTML injection and session-management vulnerabilities across the application.</p>
+          <div class="finding-bar"><div class="finding-fill sev-fill-high" style="--val:78%"></div></div>
+          <footer class="finding-foot"><span class="status-dot"></span>disclosed</footer>
+        </article>
+
+        <article class="finding-card">
+          <header class="finding-head">
+            <span class="sev sev-medium">MEDIUM</span>
+            <span class="finding-id">FND-03</span>
+          </header>
+          <h3 class="finding-title">Information Disclosure (x2)</h3>
+          <p class="finding-target">Target: Stanford University</p>
+          <p class="finding-desc">Reported two separate information disclosure issues exposing internal application details to external parties.</p>
+          <div class="finding-bar"><div class="finding-fill sev-fill-medium" style="--val:55%"></div></div>
+          <footer class="finding-foot"><span class="status-dot"></span>disclosed</footer>
+        </article>
+
+        <article class="finding-card">
+          <header class="finding-head">
+            <span class="sev sev-medium">MEDIUM</span>
+            <span class="finding-id">FND-04</span>
+          </header>
+          <h3 class="finding-title">Information Disclosure (x3) + Misconfiguration</h3>
+          <p class="finding-target">Target: Tata Motors</p>
+          <p class="finding-desc">Identified three information disclosure issues and one security misconfiguration across exposed endpoints.</p>
+          <div class="finding-bar"><div class="finding-fill sev-fill-medium" style="--val:52%"></div></div>
+          <footer class="finding-foot"><span class="status-dot"></span>disclosed</footer>
+        </article>
+
+        <article class="finding-card finding-card-ai">
+          <header class="finding-head">
+            <span class="sev sev-ai">AI SECURITY</span>
+            <span class="finding-id">FND-05</span>
+          </header>
+          <h3 class="finding-title">Prompt Injection in AI-Integrated Applications</h3>
+          <p class="finding-target">Target: Client Engagements (Confidential)</p>
+          <p class="finding-desc">Identified prompt injection vulnerabilities in LLM-integrated client applications, demonstrating how untrusted input could override intended model behavior.</p>
+          <div class="finding-bar"><div class="finding-fill sev-fill-ai" style="--val:70%"></div></div>
+          <footer class="finding-foot"><span class="status-dot"></span>disclosed</footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certs">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">05</span> certifications</p>
+      <h2 class="section-title">Credentials <span class="accent">&amp; education</span></h2>
+
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-badge">CEH v13</div>
+          <h3>Certified Ethical Hacker (v13)</h3>
+          <p>EC-Council</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge">CNSP</div>
+          <h3>Certified Network Security Practitioner</h3>
+          <p>The SecOps Group</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge">WHT</div>
+          <h3>Website Hacking Techniques</h3>
+          <p>CodeRed by EC-Council</p>
+        </div>
+      </div>
+
+      <div class="education-card">
+        <div class="edu-row">
+          <div>
+            <h3>Bachelor of Engineering, Computer Science</h3>
+            <p>Prof. Ram Meghe Institute of Technology &amp; Research, Badnera</p>
+          </div>
+          <span class="edu-date">2020 — 2024</span>
+        </div>
+        <div class="edu-meta">CGPA: 7.81 · 74.19%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">06</span> contact</p>
+      <h2 class="section-title">Let's <span class="accent">connect</span></h2>
+      <p class="section-sub">Open to Product Security, AppSec, and DevSecOps opportunities. Reach out directly.</p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:vidhanthakur17@gmail.com">
+          <span class="contact-label">email</span>
+          <span class="contact-val">vidhanthakur17@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+918856917221">
+          <span class="contact-label">phone</span>
+          <span class="contact-val">+91 8856917221</span>
+        </a>
+        <a class="contact-card" href="https://linkedin.com/in/vidhan-thakur" target="_blank" rel="noopener">
+          <span class="contact-label">linkedin</span>
+          <span class="contact-val">/in/vidhan-thakur</span>
+        </a>
+        <a class="contact-card" href="https://github.com/vidhan1703" target="_blank" rel="noopener">
+          <span class="contact-label">github</span>
+          <span class="contact-val">/vidhan1703</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>&copy; <span id="year"></span> Vidhan Thakur — built with intent, not a template.</span>
+    <a href="#top" class="back-top">back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
