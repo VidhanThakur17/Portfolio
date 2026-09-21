@@ -24,10 +24,12 @@
     <nav class="nav-links" id="navLinks">
       <a href="#about"><span class="idx">01</span>about</a>
       <a href="#experience"><span class="idx">02</span>experience</a>
-      <a href="#skills"><span class="idx">03</span>skills</a>
-      <a href="#findings"><span class="idx">04</span>findings</a>
-      <a href="#certs"><span class="idx">05</span>certs</a>
-      <a href="#contact"><span class="idx">06</span>contact</a>
+      <a href="#projects"><span class="idx">03</span>projects</a>
+      <a href="#skills"><span class="idx">04</span>skills</a>
+      <a href="#findings"><span class="idx">05</span>findings</a>
+      <a href="#achievements"><span class="idx">06</span>achievements</a>
+      <a href="#certs"><span class="idx">07</span>certs</a>
+      <a href="#contact"><span class="idx">08</span>contact</a>
     </nav>
     <a class="btn btn-ghost nav-cv" href="assets/Vidhan_Thakur_AppSec_Resume.pdf" download>download cv</a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
@@ -66,7 +68,7 @@
             <span class="stat-label">vulnerabilities disclosed</span>
           </div>
           <div class="stat">
-            <span class="stat-num" data-count="1" data-suffix=".6+y">0</span>
+            <span class="stat-num" data-count="1" data-suffix=".7+y">0</span>
             <span class="stat-label">industry experience</span>
           </div>
         </div>
@@ -166,10 +168,43 @@
     </div>
   </section>
 
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">03</span> projects</p>
+      <h2 class="section-title">Security tooling <span class="accent">I've built</span></h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <header class="project-head">
+            <span class="sev sev-ai">SAST</span>
+            <span class="finding-id">PRJ-01</span>
+          </header>
+          <h3 class="project-title">SecureFlow</h3>
+          <p class="finding-target">AI-Assisted Static Application Security Testing Platform</p>
+          <ul class="timeline-list">
+            <li>Developed and deployed a <strong>multi-language SAST platform</strong> for Python, JavaScript/TypeScript, PHP, Java, and Go using AST-based, interprocedural, and cross-file taint analysis.</li>
+            <li>Detects <strong>SQL Injection, XSS, Command Injection, SSTI, SSRF, Path Traversal, XXE, NoSQL Injection</strong>, unsafe deserialization, JWT weaknesses, and hardcoded secrets, with source-to-sink tracing and confidence-aware findings.</li>
+            <li>Built coverage visibility, suppression workflows, technical/executive PDF reports, authentication, password recovery, and project/scan management, and deployed using <strong>Render, Supabase PostgreSQL, and Brevo API</strong>.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">JavaScript/TypeScript</span><span class="tag">PHP</span>
+            <span class="tag">Java</span><span class="tag">Go</span><span class="tag">SAST</span><span class="tag">AST</span>
+            <span class="tag">Taint Analysis</span><span class="tag">Render</span>
+            <span class="tag">Supabase PostgreSQL</span><span class="tag">Brevo API</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn btn-outline" href="https://secureflow-sast.onrender.com/" target="_blank" rel="noopener noreferrer">Live Application ↗</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- SKILLS -->
   <section class="section" id="skills">
     <div class="section-inner">
-      <p class="section-eyebrow"><span class="idx">03</span> skills</p>
+      <p class="section-eyebrow"><span class="idx">04</span> skills</p>
       <h2 class="section-title">Tooling <span class="accent">&amp; capability</span></h2>
 
       <div class="skills-grid">
@@ -196,12 +231,6 @@
           </div>
         </div>
         <div class="skill-card">
-          <h3>Cloud & Infrastructure (Familiar with)</h3>
-          <div class="tag-row">
-            <span class="tag">Docker</span><span class="tag">Container Security Fundamentals</span><span class="tag">AWS Security Fundamental</span>
-          </div>
-        </div>
-        <div class="skill-card">
           <h3>Offensive Tooling</h3>
           <div class="tag-row">
             <span class="tag">Burp Suite</span><span class="tag">Nmap</span><span class="tag">Nessus</span><span class="tag">Nuclei</span>
@@ -221,7 +250,7 @@
             <span class="tag">CERT-In Compliant Reporting</span>
           </div>
         </div>
-        <div class="skill-card">
+        <div class="skill-card wide">
           <h3>Networking &amp; Systems</h3>
           <div class="tag-row">
             <span class="tag">HTTP/HTTPS</span><span class="tag">DNS</span><span class="tag">FTP</span><span class="tag">SSH</span>
@@ -267,7 +296,7 @@
   <!-- FINDINGS -->
   <section class="section" id="findings">
     <div class="section-inner">
-      <p class="section-eyebrow"><span class="idx">04</span> findings</p>
+      <p class="section-eyebrow"><span class="idx">05</span> findings</p>
       <h2 class="section-title">Independent <span class="accent">bug bounty disclosures</span></h2>
       <p class="section-sub">A selection of vulnerabilities identified and responsibly disclosed outside of client engagements.</p>
 
@@ -335,10 +364,26 @@
     </div>
   </section>
 
+  <!-- ACHIEVEMENTS -->
+  <section class="section" id="achievements">
+    <div class="section-inner">
+      <p class="section-eyebrow"><span class="idx">06</span> achievements</p>
+      <h2 class="section-title">Recognition <span class="accent">&amp; badges</span></h2>
+
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-badge">Badges</div>
+          <h3>Essential, Web Fundamentals, HTTP, API Badges</h3>
+          <p>PentesterLab</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- CERTIFICATIONS -->
   <section class="section" id="certs">
     <div class="section-inner">
-      <p class="section-eyebrow"><span class="idx">05</span> certifications</p>
+      <p class="section-eyebrow"><span class="idx">07</span> certifications</p>
       <h2 class="section-title">Credentials <span class="accent">&amp; education</span></h2>
 
       <div class="certs-grid">
@@ -351,11 +396,6 @@
           <div class="cert-badge">CNSP</div>
           <h3>Certified Network Security Practitioner</h3>
           <p>The SecOps Group</p>
-        </div>
-        <div class="cert-card">
-          <div class="cert-badge">Badges</div>
-          <h3>Web Fundamentals, Essential, HTTP, API Badges</h3>
-          <p>PentesterLab</p>
         </div>
       </div>
 
@@ -375,7 +415,7 @@
   <!-- CONTACT -->
   <section class="section" id="contact">
     <div class="section-inner">
-      <p class="section-eyebrow"><span class="idx">06</span> contact</p>
+      <p class="section-eyebrow"><span class="idx">08</span> contact</p>
       <h2 class="section-title">Let's <span class="accent">connect</span></h2>
       <p class="section-sub">Open to Product Security, AppSec, and DevSecOps opportunities. Reach out directly.</p>
 

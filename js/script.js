@@ -108,7 +108,7 @@
   --------------------------------------------------------- */
   var revealTargets = document.querySelectorAll(
     '.section-eyebrow, .section-title, .section-sub, .about-text, .about-meta, ' +
-    '.timeline-item, .skill-card, .proficiency, .finding-card, .cert-card, .education-card, .contact-card'
+    '.timeline-item, .skill-card, .proficiency, .project-card, .finding-card, .cert-card, .education-card, .contact-card'
   );
   revealTargets.forEach(function(el){ el.classList.add('reveal'); });
 
